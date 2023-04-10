@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Website</title>
+    <style>
+      body {
+        background-image: url('back.jpg');
+        background-size: cover;
+      }
+    </style>
+    <link rel="stylesheet" href="hey.css">
+  </head>
+  <body>
+    <div class="robot-container">
+      <img class="robot" src="robot.png">
+      <div class="robot-text">
+        <p>Hello there! I see you love travelling. Can I suggest a place for you?</p>
+        <button id="location-button">Sure, where am I?</button>
+      </div>
+    </div>
+    <div class="location-container">
+      <div class="location-text">
+        <p>Great! We just need your permission to access your location.</p>
+        <button id="yes-button">Yes</button>
+        <button id="no-button">No</button>
+      </div>
+    </div>
+    <div class="place-container">
+      <div class="place-text">
+        <p>Awesome! Based on your location, we suggest you visit:</p>
+        <h2 id="place-name"></h2>
+        <p id="place-address"></p>
+        <button id="suggest-button">Suggest me another place</button>
+      </div>
+    </div>
+    <script src="hey.js"></script>
+  </body>
+</html>
